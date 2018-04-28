@@ -1,0 +1,18 @@
+<h1>Hello {name}!</h1>
+<Nested {msg}></Nested>
+
+<script>
+    import Nested from './Nested.html';
+
+	export default {
+        data() {
+			return {
+                name: '',
+				msg: 'Welcome to Your Svelte.js App'
+			};
+		},
+		components: {
+            Nested
+		}
+	};
+</script>
