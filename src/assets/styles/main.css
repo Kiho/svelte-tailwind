@@ -8,4 +8,6 @@
   @apply .bg-blue-light .border-blue
 }
 
+@tailwind components;
+
 @tailwind utilities;

@@ -856,6 +856,10 @@ module.exports = {
     zIndex: ['responsive'],
   },
 
+  plugins: [
+    require('tailwindcss-tables')(),
+  ],
+
   /*
   |-----------------------------------------------------------------------------
   | Advanced Options         https://tailwindcss.com/docs/configuration#options
